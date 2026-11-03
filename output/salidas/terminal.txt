@@ -1,0 +1,59 @@
+Características reutilizadas desde: /Users/ernestou/Downloads/P1 2/Dataset_procesado_10/caracteristicas.csv
+RandomForest_base: fold 1/5 evaluado
+RandomForest_base: fold 2/5 evaluado
+RandomForest_base: fold 3/5 evaluado
+RandomForest_base: fold 4/5 evaluado
+RandomForest_base: fold 5/5 evaluado
+RandomForest_regularizado: fold 1/5 evaluado
+RandomForest_regularizado: fold 2/5 evaluado
+RandomForest_regularizado: fold 3/5 evaluado
+RandomForest_regularizado: fold 4/5 evaluado
+RandomForest_regularizado: fold 5/5 evaluado
+KNN_k5: fold 1/5 evaluado
+KNN_k5: fold 2/5 evaluado
+KNN_k5: fold 3/5 evaluado
+KNN_k5: fold 4/5 evaluado
+KNN_k5: fold 5/5 evaluado
+KNN_k15: fold 1/5 evaluado
+KNN_k15: fold 2/5 evaluado
+KNN_k15: fold 3/5 evaluado
+KNN_k15: fold 4/5 evaluado
+KNN_k15: fold 5/5 evaluado
+SVM_C0.1: fold 1/5 evaluado
+SVM_C0.1: fold 2/5 evaluado
+SVM_C0.1: fold 3/5 evaluado
+SVM_C0.1: fold 4/5 evaluado
+SVM_C0.1: fold 5/5 evaluado
+SVM_C1: fold 1/5 evaluado
+SVM_C1: fold 2/5 evaluado
+SVM_C1: fold 3/5 evaluado
+SVM_C1: fold 4/5 evaluado
+SVM_C1: fold 5/5 evaluado
+GMM_1_componente: fold 1/5 evaluado
+GMM_1_componente: fold 2/5 evaluado
+GMM_1_componente: fold 3/5 evaluado
+GMM_1_componente: fold 4/5 evaluado
+GMM_1_componente: fold 5/5 evaluado
+GMM_2_componentes: fold 1/5 evaluado
+GMM_2_componentes: fold 2/5 evaluado
+GMM_2_componentes: fold 3/5 evaluado
+GMM_2_componentes: fold 4/5 evaluado
+GMM_2_componentes: fold 5/5 evaluado
+Resultados de experimentos guardados en: /Users/ernestou/Downloads/P1 2/output/experimentos_validacion_cruzada.csv
+RandomForest_base: accuracy=0.998 +/- 0.002, F1-macro=0.998
+RandomForest_regularizado: accuracy=0.999 +/- 0.001, F1-macro=0.999
+KNN_k5: accuracy=0.981 +/- 0.029, F1-macro=0.981
+KNN_k15: accuracy=0.982 +/- 0.029, F1-macro=0.981
+SVM_C0.1: accuracy=0.982 +/- 0.027, F1-macro=0.981
+SVM_C1: accuracy=0.983 +/- 0.026, F1-macro=0.983
+GMM_1_componente: accuracy=0.980 +/- 0.033, F1-macro=0.980
+GMM_2_componentes: accuracy=0.983 +/- 0.033, F1-macro=0.982
+RandomForest_base: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/RandomForest_base.joblib, /Users/ernestou/Downloads/P1 2/Modelo/RandomForest_base.joblib
+RandomForest_regularizado: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/RandomForest_regularizado.joblib, /Users/ernestou/Downloads/P1 2/Modelo/RandomForest_regularizado.joblib
+RandomForest_regularizado: publicado también como RandomForestClassifier.joblib para P1.py.
+KNN_k5: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/KNN_k5.joblib, /Users/ernestou/Downloads/P1 2/Modelo/KNN_k5.joblib
+KNN_k15: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/KNN_k15.joblib, /Users/ernestou/Downloads/P1 2/Modelo/KNN_k15.joblib
+SVM_C0.1: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/SVM_C0.1.joblib, /Users/ernestou/Downloads/P1 2/Modelo/SVM_C0.1.joblib
+SVM_C1: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/SVM_C1.joblib, /Users/ernestou/Downloads/P1 2/Modelo/SVM_C1.joblib
+GMM_1_componente: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/GMM_1_componente.joblib, /Users/ernestou/Downloads/P1 2/Modelo/GMM_1_componente.joblib
+GMM_2_componentes: entrenado con 1640 audios y guardado en /Users/ernestou/Downloads/P1 2/output/GMM_2_componentes.joblib, /Users/ernestou/Downloads/P1 2/Modelo/GMM_2_componentes.joblib

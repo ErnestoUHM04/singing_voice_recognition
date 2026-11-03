@@ -1,0 +1,14 @@
+Modelo: KNeighborsClassifier_n5
+Exactitud (Accuracy): 100.00%
+
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+        Bajo       1.00      1.00      1.00        80
+   Contralto       1.00      1.00      1.00        81
+     Soprano       1.00      1.00      1.00        86
+       Tenor       1.00      1.00      1.00        82
+
+    accuracy                           1.00       329
+   macro avg       1.00      1.00      1.00       329
+weighted avg       1.00      1.00      1.00       329
