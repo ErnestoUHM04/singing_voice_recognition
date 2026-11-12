@@ -30,7 +30,7 @@ sample_rate = frecuencia_modelo
 n_fft = 2048
 hop_length = 512
 duracion_segmento = 10  # Duración de cada segmento en segundos
-solapamiento_segmento = 0.1  # Solapamiento entre segmentos (50%)
+solapamiento_segmento = 0.5  # Solapamiento entre segmentos (50%)
 
 
 #======================================

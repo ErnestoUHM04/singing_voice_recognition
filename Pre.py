@@ -93,7 +93,7 @@ def procesar_y_segmentar(carpeta_entrada, carpeta_salida, duracion, solapamiento
 
 if __name__ == "__main__":
     inp = "Dataset_limpio"
-    out = "Dataset_procesado_10"
+    out = "Dataset_procesado_10_s_25"
     
     # Ejecutamos con 5 segundos de duración y 50% de solapamiento
-    procesar_y_segmentar(inp, out, duracion=10, solapamiento=0.5)
+    procesar_y_segmentar(inp, out, duracion=10, solapamiento=0.25)
